@@ -1,0 +1,18 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    rgb(236, 124, 124),
+    rgb(48, 165, 165),
+    rgb(65, 173, 65)
+  );
+}
+.pokemon {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+

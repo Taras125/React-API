@@ -1,0 +1,48 @@
+.pokemon_card {
+  box-shadow: 0px 5px 20px rgb(51, 45, 45);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgb(227, 232, 235);
+  align-items: center;
+  min-width: 25%;
+}
+.img {
+  width: 250px;
+  height: 220px;
+  margin: 5px 12px;
+  background-color: rgb(151, 196, 233);
+  border: 2px solid rgb(77, 76, 76);
+}
+.flip_btn {
+  position: relative;
+  margin-left: 230px;
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+}
+.btn_load {
+  background-color: blue;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  border: none;
+  padding: 10px 100px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn_load:hover {
+  background-color: rgb(15, 37, 80);
+  color: rgb(197, 197, 221);
+}
+
+.btn_info_type {
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(168, 69, 69);
+  margin: 0px 0px 15px;
+  padding: 3px 15px;
+}
